@@ -1,0 +1,4 @@
+<launch>
+    <rosparam command="load" file="$(find pcl_tutorial)/params/pcl_params.yaml"/>
+    <node pkg="pcl_tutorial" name="PCL_tutorial" type="pcl_tutorial_node" output="screen"/>
+</launch>

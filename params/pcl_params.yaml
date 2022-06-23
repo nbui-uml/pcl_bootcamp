@@ -1,0 +1,9 @@
+camera_topic: 'camera/depth/points'
+pcl_output_topic: 'pcl_tutorial_output_topic'
+voxel_leaf_size_param: 0.02
+segmenter_distance_threshold_param: 10
+segmenter_min_clustersize_param: 200
+passthrough_filter_z_min_param: 2.5
+passthrough_filter_z_max_param: 4.0
+passthrough_filter_x_min_param: -5.0
+passthrough_filter_x_max_param: 0.15
